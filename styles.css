@@ -1,4 +1,50 @@
 h1 {
   font-size: 36px ;
-  color: #33485e ;
+  color: #A88143;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+  color: #263B39 ;
+  line-height: 50px ;
+}
+
+.float {
+  float: left;
+  margin: 10px;
+}
+
+.bottom a {
+  font-size: 22px;
+  color: #93C9F5;
+}
+
+.leftimg {
+  margin-left: 70px;
+}
+
+.midimg {
+  float: none;
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 205px;
+}
+
+.rightimg {
+  float: right;
+  margin-left: 200px;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 h3 h4 h5 {
+  font-family: 'Raleway', sans-serif;
+}
+
+table {
+  max-width: 80%;
 }
