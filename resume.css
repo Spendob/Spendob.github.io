@@ -1,0 +1,134 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Rubik&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+header, section {
+  overflow-x: hidden;
+}
+
+.header {
+  font-family:
+}
+
+header {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,101,9,1) 0%, rgba(92,128,68,1) 0%, rgba(61,156,131,1) 0%, rgba(45,171,164,1) 67%, rgba(0,212,255,1) 100%);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background: #ddd1;
+}
+
+header .row .cp-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header.row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 5px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 6vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.cards div {
+  padding:1em;
+  margin: 1em;
+}
+
+.cards .title {
+  padding: 1.4rem 2.5rem;
+  font-size: 2vmin;
+}
+
+footer {
+  background: url(foot.png);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer h1 {
+  color: #F5CE93;
+}
+
+.section-3 {
+  background: url(back2.jpg);
+
+}
+
+h5 {
+  font-family: Rubik, sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Merriweather, serif;
+}
+
+img {
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+}
+
+.arrow {
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  color: black;
+  display: inline-block;
+  align: center;
+  border: black, 2px;
+}
+
+.card {
+  align-items: center;
+
+}
+
+.card-body p {
+  align-items: center;
+  text-align: center;
+
+}
+
+.container {
+  margin-top: 4vmin;
+  margin-bottom: 4vmin;
+}
